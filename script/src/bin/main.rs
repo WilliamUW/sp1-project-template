@@ -87,5 +87,7 @@ fn main() {
         // Verify the proof.
         client.verify(&proof, &vk).expect("failed to verify proof");
         println!("Successfully verified proof!");
+
+        println!("Proof: {:?}", proof);
     }
 }
