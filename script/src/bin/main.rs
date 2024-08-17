@@ -90,6 +90,6 @@ fn main() {
 
         println!("Proof: {:?}", proof);
         println!("Proof: {:?}", proof.proof);
-        println!("Proof: {:?}", proof.proof[0]);
+        // println!("Proof: {:?}", proof.proof[0]);
     }
 }
