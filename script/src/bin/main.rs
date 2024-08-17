@@ -89,5 +89,7 @@ fn main() {
         println!("Successfully verified proof!");
 
         println!("Proof: {:?}", proof);
+        println!("Proof: {:?}", proof.proof);
+        println!("Proof: {:?}", proof.proof[0]);
     }
 }
